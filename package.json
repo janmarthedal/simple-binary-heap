@@ -1,5 +1,5 @@
 {
-  "name": "simpleheap",
+  "name": "simple-binary-heap",
   "version": "0.1.0",
   "description": "Simple heap implementation in Javascript",
   "main": "./dist/heap.js",
@@ -22,12 +22,12 @@
   "author": "Jan Marthedal Rasmussen",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janmarthedal/simpleheap.git"
+    "url": "git+https://github.com/janmarthedal/simple-binary-heap.git"
   },
   "bugs": {
-    "url": "https://github.com/janmarthedal/simpleheap/issues"
+    "url": "https://github.com/janmarthedal/simple-binary-heap/issues"
   },
-  "homepage": "https://github.com/janmarthedal/simpleheap#readme",
+  "homepage": "https://github.com/janmarthedal/simple-binary-heap#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^22.1.1",
