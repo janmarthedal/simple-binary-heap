@@ -32,7 +32,7 @@ export class Heap<T> {
             i = greaterChild;
         }
     }
-    add(x: T) {
+    push(x: T) {
         this.a.push(x);
         this.siftUp(this.a.length - 1);
     }
