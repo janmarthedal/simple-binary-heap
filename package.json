@@ -3,14 +3,20 @@
   "version": "0.1.0",
   "description": "Simple heap implementation in Javascript",
   "main": "dist/main.js",
+  "repository": "github:janmarthedal/simpleheap",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc"
   },
-  "keywords": ["heap"],
+  "keywords": [
+    "heap"
+  ],
   "author": "Jan Marthedal Rasmussen",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^22.1.1",
+    "jest": "^22.1.4",
+    "ts-jest": "^22.0.3",
     "typescript": "^2.7.1"
   }
 }
