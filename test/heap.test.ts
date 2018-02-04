@@ -23,6 +23,13 @@ describe('Heap', () => {
         expect(h.pop()).toBe(e3);
         expect(h.pop()).toBe(e1);
     });
+    test('size', () => {
+        const h = new Heap(numberLt);
+        [1, 2, 3].forEach(n => h.push(n));
+        expect(h.size()).toBe(3);
+        repeat(3, () => h.pop());
+        expect(h.size()).toBe(0);
+    });
     test('isEmpty', () => {
         const h = new Heap(numberLt);
         [1, 2, 3].forEach(n => h.push(n));

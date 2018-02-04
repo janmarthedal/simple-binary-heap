@@ -1,6 +1,6 @@
 {
   "name": "simple-binary-heap",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple heap implementation in Javascript",
   "main": "./dist/heap.js",
   "types": "./dist/heap.d.ts",

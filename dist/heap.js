@@ -32,12 +32,15 @@ var Heap = /** @class */ (function () {
             i = greaterChild;
         }
     };
-    Heap.prototype.add = function (x) {
+    Heap.prototype.push = function (x) {
         this.a.push(x);
         this.siftUp(this.a.length - 1);
     };
     Heap.prototype.isEmpty = function () {
         return this.a.length === 0;
+    };
+    Heap.prototype.size = function () {
+        return this.a.length;
     };
     Heap.prototype.peek = function () {
         if (this.a.length === 0)

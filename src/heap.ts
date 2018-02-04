@@ -39,6 +39,9 @@ export class Heap<T> {
     isEmpty() {
         return this.a.length === 0;
     }
+    size() {
+        return this.a.length;
+    }
     peek() {
         if (this.a.length === 0)
             throw new Error('Heap empty');

@@ -5,8 +5,9 @@ export declare class Heap<T> {
     private swap(i, j);
     private siftUp(i);
     private siftDown(i);
-    add(x: T): void;
+    push(x: T): void;
     isEmpty(): boolean;
+    size(): number;
     peek(): T;
     pop(): T;
     clear(): void;
