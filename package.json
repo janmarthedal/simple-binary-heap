@@ -2,16 +2,32 @@
   "name": "simpleheap",
   "version": "0.1.0",
   "description": "Simple heap implementation in Javascript",
-  "main": "dist/main.js",
-  "repository": "github:janmarthedal/simpleheap",
+  "main": "./dist/heap.js",
+  "types": "./dist/heap.d.ts",
+  "directories": {
+    "lib": "./dist",
+    "src": "./src"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf ./dist"
   },
   "keywords": [
     "heap"
   ],
   "author": "Jan Marthedal Rasmussen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janmarthedal/simpleheap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/janmarthedal/simpleheap/issues"
+  },
+  "homepage": "https://github.com/janmarthedal/simpleheap#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^22.1.1",
